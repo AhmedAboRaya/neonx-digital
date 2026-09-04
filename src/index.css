@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+.urbanist {
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background-color: #080B11;
+    color: #F1F5F9;
+}
+
+.transition-opacity {
+  transition: opacity 1s ease-in-out;
+}
+
+@media (max-width: 1170px) and (min-width: 1026px) {
+  .res-h1{
+    font-size: 20px;
+  }
+  .res-p{
+    font-size: 16px;
+  }
+  .res-padding{
+    padding-right: 20px ;
+    padding-left: 20px;
+  }
+  /* .res-img{
+    width: 200px;
+  } */
+}
