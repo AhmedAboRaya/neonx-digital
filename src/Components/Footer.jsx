@@ -43,7 +43,7 @@ export default function Footer() {
     {
       id: "facebook",
       label: "Facebook",
-      href: "https://www.facebook.com/profile.php?id=61593763453380",
+      href: "https://www.facebook.com/share/1FCrh3rjSR/?mibextid=wwXIfr",
       icon: FaFacebookF,
       hoverBorder: "hover:border-[#1877F2]/50",
       hoverBg: "hover:bg-[#1877F2]/10",
